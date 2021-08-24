@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+:root {
+  --bg: #ddd;
+  --body: rgb(36, 36, 36);
+  --acc: #002459;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  color: var(--body);
+  background-color: var(--bg);
+}
+
+.footer a {
+  color: var(--acc);
+}
